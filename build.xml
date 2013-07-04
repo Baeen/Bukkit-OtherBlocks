@@ -86,6 +86,12 @@
 	        <property name="lib.bukkit" location="lib/bukkit.jar" />
 	        <property name="export-dir" value="/home/zarius/Games/Minecraft/Servers/Ifami/Testing/plugins/" />
 	    </target>
+		
+	    <target name="Bane">
+	        <property name="dependencies" value="dependencies" />
+	        <property name="lib.bukkit" location="lib/bukkit.jar" />
+	        <property name="export-dir" value=".\Server\plugins\" />
+	    </target>		
 
 	    <!-- Default setting (if custom setting above not set) -->
 	    <target name="default">
